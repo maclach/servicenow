@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Wohnadresse" max_length="40" name="x_hotel_wohnadresse" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Stadt" max_length="32" name="stadt" reference="x_hotel_stadt" type="reference"/>
+        <element label="Strasse" max_length="32" name="strasse" reference="x_hotel_strasse" type="reference"/>
+        <element label="Vorname" max_length="40" name="vorname" type="string"/>
+        <index name="index">
+            <element name="strasse"/>
+        </index>
+        <index name="index2">
+            <element name="stadt"/>
+        </index>
+    </element>
+</database>

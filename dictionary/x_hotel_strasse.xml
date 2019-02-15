@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Strasse" max_length="40" name="x_hotel_strasse" type="collection">
+        <element label="Ortsteil" max_length="40" name="ortsteil" type="string"/>
+        <element label="Stadt" max_length="32" name="stadt" reference="x_hotel_stadt" type="reference"/>
+        <element label="Strasse" max_length="40" name="strasse" type="string"/>
+        <index name="index">
+            <element name="stadt"/>
+        </index>
+    </element>
+</database>
