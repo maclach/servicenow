@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="stadtname" label="Stadt" language="en" table="x_hotel_stadt">
+    <sys_documentation element="stadtname" label="Stadtname" language="en" table="x_hotel_stadt">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>stadtname</element>
             <help/>
             <hint/>
-            <label>Stadt</label>
+            <label>Stadtname</label>
             <language>en</language>
             <name>x_hotel_stadt</name>
-            <plural>Stadts</plural>
+            <plural>Stadtnames</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-02-07 14:25:48</sys_created_on>
             <sys_id>748e5160db27e700cc3078eebf961907</sys_id>
-            <sys_mod_count>1</sys_mod_count>
-            <sys_name>Stadt</sys_name>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_name>Stadtname</sys_name>
             <sys_package display_value="Hotel" source="x_hotel">a8f395beebc522004fcde08a5206fe2e</sys_package>
             <sys_policy/>
             <sys_scope display_value="Hotel">a8f395beebc522004fcde08a5206fe2e</sys_scope>
             <sys_update_name>sys_documentation_x_hotel_stadt_stadtname_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-02-08 08:30:45</sys_updated_on>
+            <sys_updated_on>2019-02-15 11:27:21</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>
